@@ -129,3 +129,14 @@ header a{
     position: absolute;
     top: -2.6rem;
 }
+
+
+@media screen and (min-width:1024px){
+    #topcontent{
+        max-width: 700px;
+    }
+
+    br{
+        display: none;
+    }
+}
