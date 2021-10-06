@@ -40,6 +40,7 @@ header a{
     border-radius: 1rem;
     font-size: 0.8rem;
     margin-right: 2rem;
+    font-family: 'Open Sans', sans-serif;
     
    
 }
@@ -115,4 +116,16 @@ header a{
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+.small{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    color: #808E9A;
+}
+
+.icon{
+    width: 2rem;
+    position: absolute;
+    top: -2.6rem;
 }
