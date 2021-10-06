@@ -62,7 +62,7 @@ header a{
     margin-bottom: 2rem;
 }
 
-.topwords p{
+.description{
     
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
@@ -96,4 +96,15 @@ header a{
 
 .screenmock{
     width: 20rem;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
