@@ -107,4 +107,12 @@ header a{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-top: 5rem;
+}
+
+.large{
+    color: #00252E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
