@@ -145,6 +145,7 @@ header a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 6rem;
 }
 
 .picture_words h2{
@@ -162,7 +163,7 @@ header a{
     font-size: 0.9rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
 }
 
 
