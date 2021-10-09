@@ -202,7 +202,7 @@ header a{
 
 .footer_image{
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 3rem;
     position: relative;
     bottom: -1.1rem;
 
@@ -217,6 +217,21 @@ margin-top: 1rem;
 .news{
     color: #FFF;
     margin-top: 2rem;
+    padding: 1rem;
+}
+
+.news h2{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.news p{
+   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
 }
 
 
