@@ -166,6 +166,32 @@ header a{
     line-height: 1.6rem;
 }
 
+.ready{
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.ready h3{
+    color: #00252E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+
+.ready a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #FF52C1;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+}
+
 
 @media screen and (min-width:1024px){
     #topcontent{
