@@ -82,12 +82,21 @@
                     <h2>Newsletter</h2>
                     <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send
                         you spam or pass on your email address.</p>
-                    <form action="#"></form>
+                    <form id="myForm" class="mobile" name="myForm" action="#"
+                        onsubmit='event.preventDefault(); validateForm(); ' method="get">
+                        <input class="mobile" id='email' type="text" placeholder="Enter your Email Address"
+                            name='email'> </input>
+                        <p id="error"></p>
+                        <button class="cat" name="cat">Get Started</button>
+
+
+
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

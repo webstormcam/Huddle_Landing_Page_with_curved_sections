@@ -234,6 +234,31 @@ margin-top: 1rem;
     line-height: 1.5rem;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+   
+    
+}
+
+.cat{
+ width: 10rem;
+ padding: 0.8rem;
+ border-radius: 0.6rem;
+ margin-top: 1rem;
+ color: #fff;
+ background-color: #FF52C1;
+ font-family: 'Poppins', sans-serif;
+ align-self: flex-end;
+ border: 1px solid #FF52C1;
+}
+
 
 @media screen and (min-width:1024px){
     #topcontent{
