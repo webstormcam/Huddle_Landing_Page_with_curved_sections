@@ -220,6 +220,12 @@ margin-top: 1rem;
     padding: 2rem;
 }
 
+.wordy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .news h2{
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
@@ -309,6 +315,7 @@ form{
 
 
 
+
 @media screen and (min-width:1024px){
     #topcontent{
         max-width: 800px;
@@ -327,4 +334,17 @@ form{
         width: 100%;
         justify-content: space-around;
     }
+
+    #middlecontent{
+        max-width: 800px;
+    }
+
+    .picture_words{
+        flex-direction: row;
+    }
+
+    .flip{
+        order: -1;
+    }
+    
 }
