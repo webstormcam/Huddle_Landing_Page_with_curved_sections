@@ -325,18 +325,12 @@ form{
 
     .logo{
         height: 1.6rem;
-     
-       
-    }
+      }
     
     header a{
 
         font-size: 1rem;
-       
-       
-        
-       
-    }
+       }
 
     br{
         display: none;
@@ -411,6 +405,16 @@ form{
     #topcontent{
         max-width: 1200px;
     }
+
+
+    .logo{
+        height: 1.9rem;
+      }
+    
+    header a{
+
+        font-size: 1.1rem;
+       }
 .topwords h1{
     font-size: 2.5rem;
 }
