@@ -448,4 +448,21 @@ form{
     font-size: 2rem;
 }
 
+#endcontent{
+    width: 100%;
+}
+
+.enditems{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.news{
+    width: 564px;
+}
+
+.information{
+    width: 564px;
+}
+
 }
