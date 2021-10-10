@@ -217,7 +217,7 @@ margin-top: 1rem;
 .news{
     color: #FFF;
     margin-top: 2rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .news h2{
@@ -257,6 +257,53 @@ form{
  font-family: 'Poppins', sans-serif;
  align-self: flex-end;
  border: 1px solid #FF52C1;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.bottomlogo{
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+.information p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.reachout{
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    width: 2rem;
+    fill: #fff;
 }
 
 
