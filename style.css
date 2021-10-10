@@ -343,7 +343,7 @@ form{
 
     .picture_words{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 100%;
         
     }
