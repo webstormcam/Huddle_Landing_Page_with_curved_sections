@@ -317,4 +317,14 @@ form{
     br{
         display: none;
     }
+
+    .screenmock{
+        width: 35rem;
+    }
+
+    .stats{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
 }
