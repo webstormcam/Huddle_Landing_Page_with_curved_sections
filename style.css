@@ -138,6 +138,8 @@ header a{
     flex-direction: column;
     align-items: center;
     margin-top: 4rem;
+    max-width: 399px;
+    width: 100%;
 }
 
 .picture_words{
@@ -341,10 +343,31 @@ form{
 
     .picture_words{
         flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        
+    }
+
+    .wordy{
+        align-items: flex-start;
+        max-width: 400px;
+    }
+
+    .wordy h2{
+        text-align: left;
+    }
+
+    .wordy p{
+        text-align: left;
+        padding: 0rem;
     }
 
     .flip{
         order: -1;
+    }
+
+    .ill-image{
+        width: 20rem;
     }
     
 }
